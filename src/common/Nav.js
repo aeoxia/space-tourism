@@ -15,7 +15,7 @@ function Nav() {
   return (
     <>
       <div className="absolute w-full h-24 md:flex  justify-between md:items-center lg:mt-10 ">
-        <div className="flex justify-between items-center m-6 md:m-0 md:ml-10    ">
+        <div className="flex justify-between items-center m-6 md:m-0 md:ml-10">
           <div className="h-10 w-10 border-1 border-white rounded-full flex justify-center items-center ">
             <img src={logo} alt="logo" className="w-10" />
           </div>

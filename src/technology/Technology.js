@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { fetchTechnology } from "./technologyAction";
 
-function Tehcnology({ technology, fetchTechnology }) {
+function Technology({ technology, fetchTechnology }) {
   const [techName, setTechName] = useState("Launch vehicle");
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -122,4 +122,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Tehcnology);
+export default connect(mapStateToProps, mapDispatchToProps)(Technology);

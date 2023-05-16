@@ -12,7 +12,6 @@ function Destination({ destination, errorMsg, fetchDestination }) {
   const clickHandler = (e) => {
     setPlanetMoon(e.target.id);
   };
-  // text-[16px] leading-[19px] tracking-[2.7px]
 
   return (
     <div className="bg-destination-mobile md:bg-destination-tablet lg:bg-destination-desktop text-white flex flex-col items-center text-center  lg:flex-row lg:justify-evenly lg:text-left ">
@@ -130,5 +129,3 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Destination);
-
-// flex mt-[88px] text-[16px] leading-[19px] tracking-[2.7px]border-2 border-green-700
